@@ -17,7 +17,7 @@ fatal: unable to access 'https://github.com/jojun94/Workspace.git/': The request
 
 + Commit Author 수정
 
-git commit --amend --author="USERNAME <USER-EMAIL>"
+git commit --amend --author="USERNAME \<USER-EMAIL\>"
 
-Ex) git commit --amend --author="jojun94 <jojun9475@gmaile.com>"
+Ex) git commit --amend --author="jojun94 \<jojun9475@gmail.com\>"
 
