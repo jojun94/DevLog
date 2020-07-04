@@ -35,3 +35,9 @@
 
 
 + Spring에서는 위와 같은 일련의 과정을 거쳐 요청에 대한 응답을 MVC 패턴을 이용하여 처리한다.
+
+
+
+> 참고 
+>
+> https://jeong-pro.tistory.com/96
