@@ -30,6 +30,12 @@ Uniform Resource Identifier
 >
 > 이렇게 구분자(Identifier)로 보는 것이 URI 이다.
 
++ URL의 예시
+
+> http:// myproject.com/company/sample.pdf
+>
+> myproject.com 서버에서 company/work 폴더안의 sample.pdf 를 요청하는 URL
+
 
 
 + URI의 예시
