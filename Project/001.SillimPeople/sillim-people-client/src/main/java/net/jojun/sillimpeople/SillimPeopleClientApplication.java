@@ -13,4 +13,5 @@ public class SillimPeopleClientApplication {
         SpringApplication.run(SillimPeopleClientApplication.class, args);
     }
 
+
 }
