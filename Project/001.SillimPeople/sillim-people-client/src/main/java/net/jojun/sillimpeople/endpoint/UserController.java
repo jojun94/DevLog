@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by JOJUN.
  * Date: 2020-07-07
@@ -19,16 +22,20 @@ public class UserController {
 
 //    private static final Logger log = LoggerFactory.getLogger(UserController.class.getSimpleName());
     private static final Logger log = LoggerFactory.getLogger(UserController.class);
+    String baseUrl = "http://127.0.0.1:9080/";
 
-    @GetMapping("/printUser")
-    public String printUser(){
-        String url = "http://127.0.0.1:9080/printUser";
+    @GetMapping("/printAllUser")
+    public String printAllUser(){
+        String url = baseUrl +"selectAllUser";
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders header = new HttpHeaders();
         HttpEntity<?> entity = new HttpEntity<>(header);
+//        List<Object> obj = new ArrayList<>();
 
 
         ResponseEntity<String> result = restTemplate.exchange(url, HttpMethod.GET, entity, String.class);
+
+//        ResponseEntity<List<Object>> result = restTemplate.exchange(url, HttpMethod.GET, entity, String.class);
 
         log.info("Message Header : " + result.getHeaders());
         log.info("Message Body : " + result.getBody());
