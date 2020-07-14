@@ -98,3 +98,35 @@
   
   
 * REST API란? - 계속
+
+
+
++ 마무리
+
+  REST는 **분산 시스템 설계**를 위한 이키텍처 스타일.
+
+  RESTful API를 이용해서 하나의 큰 서비스 애플리케이션을 여러 모듈화된 작은 서비스 애플리케이션(마이크로 서비스)나눌수 있음.
+
+  
+
+  URI와 URL의 차이점
+
+  Uniform Resource Identifier, Uniform Resource Locator
+
+  REST에서는 모든 것을 Resource로 표현한다. 그리고 그 자원은 유일한 것을 나타낸다. Identifier, 식별자라는 것이다.
+
+  반면에 과거의 웹에서는 Identifier의 개념이 따로 필요없었다. html같은 파일들을 주고 받았기 때문에 파일의 위치를 가리키는 Locator를 썼다고 이해하면 된다.
+
+  URI가 파일뿐만 아니라 여러 자원들 까지도 포함하는 개념으로 이해할 수 있다.
+
+  
+
+  
+
+  
+
+> 참고 
+>
+> https://jeong-pro.tistory.com/180?category=793347
+>
+> https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
