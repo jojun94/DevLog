@@ -18,7 +18,9 @@ Spring Boot는 내부에 웹서버를 포함하고 있다. 개발자가 Spring B
 
 + 정리
 
-Spring Framework 와 Spring Boot를 비교하였을 때, Spring Boot는 inbuilt 되어있는 특징들과 이익들 때문에 더욱 사용하기 편하고 안정적이라고 할 수 있다. 또한 대부분은 auto configured 되어있다. 
+> 개발자를 위한 `Spring Boot` 
+
+Spring Framework 와 Spring Boot를 비교하였을 때, Spring Boot는 inbuilt 되어있는 특징들과 이익들 때문에 더욱 사용하기 편하고 안정적이라고 할 수 있다. 또한 대부분은 auto configured 되어있다.  
 
 
 
