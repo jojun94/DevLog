@@ -10,13 +10,15 @@
 
 ### DFD 
 
+![](./DFD.jpg)
 
 
 
 
-> API Server
+
+> API Server  https://github.com/jojun94/sillim-people-api
 >
-> Client 
+> Client https://github.com/jojun94/sillim-people-client
 
 
 
