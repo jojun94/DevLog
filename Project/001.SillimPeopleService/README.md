@@ -8,7 +8,15 @@
 
 + `API Server`, `Client`, 2개의 아키텍처로 구성되어 있으며 데이터 흐름도 및 단위 기능 실행 화면은 아래와 같다.
 
+### DFD 
 
+
+
+
+
+> API Server
+>
+> Client 
 
 
 
