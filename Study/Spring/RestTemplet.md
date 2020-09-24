@@ -14,12 +14,8 @@
   - Spring 4에 추가된 비동기 RestTemplet 
   - Spring 5에서 deprecated 되었음
 
-
-
 - WebClient
   - Spring 5에서 추가된 논블럭, 리액티브 웹 클라이언트로 동기, 비동기 방식을 지원
-
-
 
 
 

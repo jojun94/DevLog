@@ -2,9 +2,9 @@
 
 ##### 들어가며
 
->  기존에 Spring Framework를 이용하여 개발을 하였을 때는 MVC 모델 중 View를 담당하는 기술로 JSP 기술을 사용하였다. 
+>  기존에 Spring Framework를 이용하여 개발을 하였을 때는 JSP를 사용하였다. 
 >
->  새로 Spring Boot 프로젝트를 하며 Thymeleaf를 공부하게되어 차이점을 기술한다.
+>  새로 Spring Boot 프로젝트를 하며 Spring Boot에서 밀어주고 있는 Thymeleaf를 공부하게 되어 차이점을 기술한다.
 
 
 
@@ -37,8 +37,8 @@
 > Spring Boot 에서는 내장 was를 이용하여 jsp를 사용하기 위해서는 별도의 뷰 리졸버 설정이 필요했다.
 >
 > 간편하지만 익숙하지 않은 Thymeleaf의 사용법을 숙달할 필요성을 느꼈다.
-
-
+>
+> 태그의 사용법이 익숙하지 않다. JSTL의 대체 태그를 찾고 그 사용법을 알아내야 한다.
 
 
 
