@@ -7,7 +7,6 @@
    3. git commit
    4. git push
 3. Git Flow 전략
-4. 마치며
 
 
 
